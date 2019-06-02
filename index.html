@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto 3 - Dieter de Wit</title>
+        <script src="proyecto3.js"></script>
+    </head>
+
+    <body>
+	<h1>Proyecto3 - Raycaster</h1>
+        <p>
+		<canvas id="rayCanvas" width="800" height="600">
+        </canvas>
+    </body>
+
+	
+	<script>
+		var canvas = document.getElementById("rayCanvas");
+		var raycaster=new Raycaster(canvas);
+		raycaster.start();
+	</script>	
+</html>
